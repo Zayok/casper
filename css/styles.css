@@ -1,6 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 * {
     box-sizing: border-box; /*выбираем способ расчета с учетом рамки*/
 }
 a, button{
     transition: all .3s ease-in-out;
 }
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    background: #000;
+   
+}
+.conteiner{
+    max-width: 300px;
+    padding: 0 15px;
+    margin: 0 auto;
+      
+}
+.fas {
+    font-size: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+    .col--colortext{
+        color: #1f92b4;
+    }
+   p,h1,h2{
+       text-align: center;
+       
+   }
+   p{
+    margin: 30px;
+   }
+   h2{ 
+     margin: 150px;
+     size: 30px;
+     border-bottom: 2px solid white;/*делаем линию под текстом*/
+     padding: 40px 0;/*отступ линии от текста*/
+   }
+   footer{
+       margin: 300px;
+   } 
+  
+   
+   ul li{
+    display: inline;/*список горизонтально*/
+    font-size: 50px;/*размер картинок*/
+    padding: 0;
+   
+   }
+   li{
+   
+    list-style: none;
+   }
+ 
