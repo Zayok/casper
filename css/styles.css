@@ -11,11 +11,18 @@ body{
     background: #000;
    
 }
+.h{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 .conteiner{
     max-width: 300px;
     padding: 0 15px;
     margin: 0 auto;
-      
+     
 }
 .fas {
     font-size: 100px;
@@ -23,9 +30,7 @@ body{
   margin-right: 0;
   
 }
-    .col--colortext{
-        color: #1f92b4;
-    }
+    
    p,h1,h2{
        text-align: center;
        
@@ -34,24 +39,29 @@ body{
     margin: 30px;
    }
    h2{ 
-     margin: 150px;
-     size: 30px;
+     margin: 100px;
+     size: 50px;
+     
      border-bottom: 2px solid white;/*делаем линию под текстом*/
      padding: 40px 0;/*отступ линии от текста*/
    }
    footer{
-       margin: 300px;
+       margin: 50px;
    } 
   
    
    ul li{
     display: inline;/*список горизонтально*/
-    font-size: 50px;/*размер картинок*/
+    font-size: 40px;/*размер картинок*/
     padding: 0;
+   
    
    }
    li{
-   
+   margin: 0;
     list-style: none;
+    
    }
- 
+ .colortext{
+     color: #19c8fa;
+ }
